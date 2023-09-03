@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       <div className='flex justify-center mt-[5rem]'>
-        <button className='border-[3px] border-[#fff] h-[40px] w-[240px] rouded-md font-light'>
+        <button className='border-[3px] border-[#fff] h-[40px] w-[240px] rounded-md font-light'>
           <a href="#waitlist">
             sign up
           </a>
@@ -31,7 +31,7 @@ export default function Home() {
       <div id="waitlist">
         <div className='rounded-1g mt-[400px] w-full h-[25rem] bg-gradient-to-b from-purple-500 to-blue-500'>
           <div className='flex justify-center underline underline-offset-5 decoration-3'>
-            <p className='mt-[3rem] font-bol text-[30px]'>
+            <p className='mt-[3rem] font-bold text-[30px]'>
               join our <span className='underline ring-offset-1'>beta</span> program
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function Home() {
           <div className='flex justify-center mt-[0.5rem]'>
             <p>
               the beta version of aarat scraper will be out soon. drop your <br/>
-              <span>email below we will notify you once it's done!</span>
+              <span className='ml-[5rem]'>email below we will notify you once it's done!</span>
             </p>
           </div>
 
